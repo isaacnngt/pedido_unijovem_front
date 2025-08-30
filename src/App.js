@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import { Plus, Edit3, Trash2, Check, X, Package, User, CreditCard, Calendar } from 'lucide-react';
+import { Plus, Edit3, Trash2, Check, Package, User, CreditCard, Calendar } from 'lucide-react';
 
 // Serviço para comunicação com a API
 const api = {
