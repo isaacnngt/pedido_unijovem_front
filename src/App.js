@@ -3,7 +3,7 @@ import { Plus, Edit3, Trash2, Check, Package, User, CreditCard, Calendar } from 
 
 // Serviço para comunicação com a API
 const api = {
-  baseURL: 'https://pedidounijovem-production.up.railway.app',
+  baseURL: 'https://pedidounijovem-production.up.railway.app/api',
 
   async get(endpoint) {
     const response = await fetch(`${this.baseURL}${endpoint}`);
